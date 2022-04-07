@@ -1,13 +1,15 @@
+/* the universal selector for the website*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*website background color*/
 body {
     background-color: #d9dcd6;
 }
-
+/* navbar CSS*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,8 +51,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* the css styles for the main content of the webpage*/
+.digital-meeting-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -74,7 +76,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Css style for the right side content of the website*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -190,7 +192,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*the css style for the footer of the webpage*/
 footer {
     padding: 30px;
     clear: both;
